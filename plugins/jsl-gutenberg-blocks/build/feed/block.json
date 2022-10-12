@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "jsl/feed",
+  "title": "Feed",
+  "category": "jsl",
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "posts": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:index.js",
+  "viewScript": "file:Save.js",
+  "editorStyle": "file:index.css",
+  "style": "file:style-index.css"
+}

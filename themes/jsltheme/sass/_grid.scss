@@ -1,0 +1,38 @@
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+  @media screen and (min-width: 500px) {
+    padding: 0 3em;
+  }
+  &-flex {
+    display: flex;
+    margin: 0 auto;
+    flex-basis: 80em;
+    max-width: 80em;
+    padding: 0 1em;
+    @media screen and (min-width: 500px) {
+      flex-basis: 86em;
+      max-width: 86em;
+      padding: 0 3em;
+    }
+  }
+  &-960 {
+    max-width: 960px;
+    flex-basis: 960px;
+  }
+  .row {
+    max-width: 80em;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    .col {
+      padding: 0 .5em;
+      &-6 {
+        flex: 0 0 50%;
+      }
+      &-12 {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}

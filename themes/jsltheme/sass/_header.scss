@@ -1,0 +1,47 @@
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.site-header-top {
+  flex: 0 0 100%;
+  padding: .5em .5em;
+  background-color: $main-color;
+  color: #fff;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.site-branding {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  .site-title {
+    white-space: nowrap;
+    font-size: 2em;
+    font-weight: 800;
+    margin: 0 auto 0 0;
+    text-transform: uppercase;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-menu {
+  .menu-item {
+    a {
+      padding: .5em 1em;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "jsl-gutenberg-blocks",
+  "version": "1.0.0",
+  "description": "Showcases my skills building Gutenberg blocks",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "watch": "wp-scripts start"
+  },
+  "author": "Justin McKee <thisisjustinmckee@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.2.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.15.0",
+    "@wordpress/block-editor": "^10.1.0",
+    "@wordpress/components": "^21.1.0",
+    "@wordpress/data": "^7.2.0",
+    "@wordpress/element": "^4.16.0"
+  }
+}

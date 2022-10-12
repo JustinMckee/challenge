@@ -1,0 +1,61 @@
+@import "../styles/grid";
+
+.wp-block-jsl-feed {
+  max-width: 40em;
+  margin: 0 auto;
+  &.alignwide {
+    max-width: 80em;
+  }
+  &.alignfull {
+    max-width: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    @media screen and (min-width: 500px) {
+      margin-left: -3em;
+      margin-right: -3em;
+    }
+  }
+}
+
+.jsl-card {
+  box-shadow: .5em .5em 1em rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.jsl-card-image-wrapper {
+  aspect-ratio: 16/9;
+  background-color: #efefef;
+  line-height: 0;
+  .jsl-card-image {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    max-width: none;
+    width: 100%;
+  }
+}
+
+.jsl-card-header {
+  .jsl-card-title {
+    font-size: 1.3em;
+    padding: 0 1rem;
+    margin: .3em 0 .3em;
+    line-height: 1.3;
+  }
+}
+
+.jsl-card-body,.jsl-card-footer {
+  padding: 0 1rem 1rem;
+}
+
+.jsl-card-footer {
+  margin-top: auto;
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: 800;
+    cursor: pointer;
+  }
+}

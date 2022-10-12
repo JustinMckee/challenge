@@ -1,0 +1,85 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/media-bundle/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+h2, h3, h4, h5, h6 {
+  font-size: 1.8em;
+}
+
+.entry-content > * {
+  max-width: 40em;
+  margin: 0 auto;
+}
+.entry-content > *.alignwide {
+  max-width: 80em;
+}
+.entry-content > *.alignfull {
+  max-width: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media screen and (min-width: 550px) {
+  .entry-content > *.alignfull {
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+}
+
+.jsl-e-row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+@media screen and (min-width: 550px) {
+  .jsl-e-row {
+    flex-wrap: nowrap;
+    gap: 3em;
+  }
+}
+.jsl-e-row .jsl-e-col-6 {
+  display: flex;
+  flex: 0 0 100%;
+  flex-basis: 100%;
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (min-width: 550px) {
+  .jsl-e-row .jsl-e-col-6 {
+    flex: 1 1 50%;
+    flex-basis: 50%;
+  }
+}
+
+.wp-block > * {
+  max-width: 40em;
+  margin: 0 auto;
+}
+.wp-block[data-align=wide] > * {
+  max-width: 80em;
+}
+.wp-block[data-align=full] > * {
+  max-width: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media screen and (min-width: 550px) {
+  .wp-block[data-align=full] > * {
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+}
+
+.wp-block-jsl-media-bundle > .wp-block-columns {
+  gap: 3em;
+}
+.wp-block-jsl-media-bundle > .wp-block-columns h2, .wp-block-jsl-media-bundle > .wp-block-columns h3, .wp-block-jsl-media-bundle > .wp-block-columns h4, .wp-block-jsl-media-bundle > .wp-block-columns h5, .wp-block-jsl-media-bundle > .wp-block-columns h6 {
+  margin-top: 0;
+}
+@media screen and (min-width: 1024px) {
+  .wp-block-jsl-media-bundle .wp-block-image {
+    max-width: 80%;
+    float: right;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
